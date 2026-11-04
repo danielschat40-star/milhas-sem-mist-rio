@@ -78,10 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Guia de Milhas" },
+      { title: "O Caminho das Milhas" },
       { name: "description", content: "Guia para viajar com milhas" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Guia de Milhas" },
+      { property: "og:title", content: "O Caminho das Milhas" },
       { property: "og:description", content: "Guia para viajar com milhas" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -12,9 +12,9 @@ const PRICE = "R$ 19,90";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Guia de Milhas — voe gastando pouco" },
+      { title: "O Caminho das Milhas — Um Guia para Viajantes" },
       { name: "description", content: "Guia em PDF para iniciantes: use os pontos do seu cartão para emitir passagens." },
-      { property: "og:title", content: "Guia de Milhas — voe gastando pouco" },
+      { property: "og:title", content: "O Caminho das Milhas — Um Guia para Viajantes" },
       { property: "og:description", content: "Transforme os pontos do seu cartão em passagens aéreas." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -61,11 +61,11 @@ function Index() {
         <img src={hero} alt="Casal com malas no aeroporto" width={1600} height={912} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto max-w-6xl px-6 py-8">
-          <div className="flex items-center gap-2 text-xl font-extrabold"><Plane className="text-sun" /> Guia de Milhas</div>
+          <div className="flex items-center gap-2 text-xl font-extrabold"><Plane className="text-sun" /> <span>O Caminho das Milhas<span className="block text-xs font-semibold opacity-80">Um Guia para Viajantes</span></span></div>
           <div className="ml-auto mt-20 max-w-xl">
             <p className="flex items-center gap-2 text-sm font-semibold uppercase text-sun"><Sparkles className="h-4 w-4" /> Guia para iniciantes</p>
-            <h1 className="mt-4 text-5xl font-extrabold leading-tight">Seu cartão já guarda <span className="text-sun">PONTOS</span> — falta aprender a voar com eles</h1>
-            <p className="mt-6 text-lg opacity-90">Um método simples para converter as compras do mês em passagens quase de graça.</p>
+            <h1 className="mt-4 text-5xl font-extrabold leading-tight">Um Caminho <span className="text-sun">Prático</span> para Saber</h1>
+            <p className="mt-6 text-lg opacity-90">Onde e como resgatar os seus pontos dos cartões.</p>
             <div className="mt-8"><Cta /></div>
             <div className="mt-5 flex gap-8 text-sm opacity-90">
               <span className="flex items-center gap-1"><FileText className="h-4 w-4 text-sun" /> PDF completo</span>
