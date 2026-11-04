@@ -61,15 +61,13 @@ function Index() {
         <img src={hero} alt="Casal com malas no aeroporto" width={1600} height={912} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto max-w-6xl px-6 py-8">
-          <div className="flex items-center gap-2 text-xl font-extrabold"><Plane className="text-sun" /> <span>O Caminho das Milhas<span className="block text-xs font-semibold opacity-80">Um Guia para Viajantes</span></span></div>
+          <div className="flex items-center gap-2 text-xl font-extrabold"><Plane className="text-sun" /> O Caminho das Milhas</div>
           <div className="ml-auto mt-20 max-w-xl">
-            <p className="flex items-center gap-2 text-sm font-semibold uppercase text-sun"><Sparkles className="h-4 w-4" /> Guia para iniciantes</p>
-            <h1 className="mt-4 text-5xl font-extrabold leading-tight">Um Caminho <span className="text-sun">Prático</span> para Saber</h1>
-            <p className="mt-6 text-lg opacity-90">Onde e como resgatar os seus pontos dos cartões.</p>
+            <p className="flex items-center gap-2 text-sm font-semibold uppercase text-sun"><Sparkles className="h-4 w-4" /> Um Guia para Viajantes</p>
+            <h1 className="mt-4 text-5xl font-extrabold leading-tight">Um Caminho <span className="text-sun">Prático</span> para Saber onde e como resgatar os pontos dos seus cartões</h1>
             <div className="mt-8"><Cta /></div>
             <div className="mt-5 flex gap-8 text-sm opacity-90">
               <span className="flex items-center gap-1"><FileText className="h-4 w-4 text-sun" /> PDF completo</span>
-              <span className="flex items-center gap-1"><ShieldCheck className="h-4 w-4 text-sun" /> 7 dias de garantia</span>
             </div>
           </div>
         </div>
