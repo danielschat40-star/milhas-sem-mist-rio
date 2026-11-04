@@ -54,6 +54,16 @@ const faq = [
   ["E se eu não gostar?", "Você tem 7 dias para pedir reembolso integral."],
 ];
 
+function PassportIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-6 w-6 text-sun" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <rect x="5" y="2" width="14" height="20" rx="2" />
+      <circle cx="12" cy="10" r="3" />
+      <path d="M9 10h6M12 7c-1 1-1 5 0 6M12 7c1 1 1 5 0 6M9 17h6" />
+    </svg>
+  );
+}
+
 function Index() {
   return (
     <main className="font-sans">
@@ -61,10 +71,10 @@ function Index() {
         <img src={hero} alt="Casal com malas no aeroporto" width={1600} height={912} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto max-w-6xl px-6 py-8">
-          <div className="flex items-center gap-2 text-xl font-extrabold"><Plane className="text-sun" /> O Caminho das Milhas</div>
+          <div className="flex items-center gap-2 text-xl font-extrabold"><PassportIcon /> O Caminho das Milhas</div>
           <div className="ml-auto mt-20 max-w-xl">
             <p className="flex items-center gap-2 text-sm font-semibold uppercase text-sun"><Sparkles className="h-4 w-4" /> Um Guia para Viajantes</p>
-            <h1 className="mt-4 text-5xl font-extrabold leading-tight">Um Caminho <span className="text-sun">Prático</span> para Saber onde e como resgatar os pontos dos seus cartões</h1>
+            <h1 className="mt-4 text-3xl font-extrabold leading-tight md:text-4xl">Um Caminho <span className="text-sun">Prático</span> para Saber onde e como resgatar os pontos dos seus cartões</h1>
             <div className="mt-8"><Cta /></div>
             <div className="mt-5 flex gap-8 text-sm opacity-90">
               <span className="flex items-center gap-1"><FileText className="h-4 w-4 text-sun" /> PDF completo</span>
